@@ -1,15 +1,11 @@
 .card-receitas {
-  width: 320px;
+  width: 350px;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   font-family: sans-serif;
   background-color: #ffffff;
   transition: transform 0.2s ease-in-out;
-}
-
-.card-receitas:hover {
-  transform: translateY(-5px);
 }
 
 .card-receitas img {
@@ -41,4 +37,8 @@
   color: #777777;
   border-top: 1px solid #eeeeee;
   background-color: #fafafa;
+}
+
+.card-receitas:hover {
+    transform: scale(1.05);
 }

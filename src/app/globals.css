@@ -15,7 +15,8 @@ h2 {
 .card-conteiner {
     display: flex;
     flex-wrap: wrap;
-    gap: 25px;
+    padding: 10px;
+    gap: 13px;
     width: 75vw;
     margin: auto;
 }
